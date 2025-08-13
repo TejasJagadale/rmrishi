@@ -1,0 +1,310 @@
+/* Contact Page Styles */
+.contact-page {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: #333;
+  /* margin-top: 60px; */
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-header h1 {
+  color: #d4af37;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-header p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-form-section {
+  width: 60%;
+}
+
+.contact-info-section {
+  flex: 1;
+  /* min-width: 300px; */
+  width: 30%;
+}
+
+.contact-form-section h2,
+.contact-info-section h2,
+.branches-section h2,
+.map-section h2 {
+  color: #b8860b;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* .contact-form-section h2::after,
+.contact-info-section h2::after,
+.branches-section h2::after,
+.map-section h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #d4af37;
+} */
+
+/* Contact Form Styles */
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input.error,
+.form-group textarea.error {
+  border-color: #e74c3c;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+.submit-btn {
+  background-color: #d4af37;
+  color: #1a1a1a;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #b8860b;
+  color: #F8F5F0;
+}
+
+.success-message {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+/* Contact Info Styles */
+.info-cardctc {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.contact-method {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.podu {
+  width: 60%;
+  text-align: left;
+}
+.contact-icon {
+  color: #d4af37;
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.contact-method h3 {
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-method p {
+  color: #666;
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.social-links h3 {
+  margin-bottom: 1rem;
+}
+
+.social-iconsctc {
+  display: flex;
+  /* gap: 1rem; */
+  justify-content: space-evenly;
+}
+
+.social-iconsctc a {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-iconsctc a:hover {
+  color: #d4af37;
+  transform: translateY(-3px);
+}
+
+/* Branches Section */
+.branches-section {
+  margin: 3rem 0;
+}
+
+.branches-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.branch-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #d4af37;
+}
+
+.branch-card h3 {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.branch-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.detail-icon {
+  color: #d4af37;
+  margin-top: 3px;
+}
+
+.direction-btn {
+  background-color: transparent;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  margin-top: 1rem;
+}
+
+.direction-btn:hover {
+  background-color: #d4af37;
+  color: #F8F5F0;
+}
+
+/* Map Section */
+.map-section {
+  margin-top: 3rem;
+}
+
+.map-container {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-form-section,
+  .contact-info-section {
+    width: 100%;
+  }
+
+  .branch-card {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page {
+    padding: 1rem;
+    /* margin-top: 60px; */
+  }
+
+  .contact-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form,
+  .info-cardctc {
+    padding: 1.5rem;
+  }
+}
