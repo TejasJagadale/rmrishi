@@ -315,7 +315,7 @@ const Home = () => {
                   animate="visible"
                   variants={zoomIn}
                 >
-                  <img src="/images/home.png" alt="Featured Jewelry" />
+                  <img src="/images/podu.png" alt="Featured Jewelry" />
                 </motion.div>
               </div>
             </div>

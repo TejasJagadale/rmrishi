@@ -1071,7 +1071,7 @@ body {
   .carousel-content {
     flex-direction: column;
     text-align: center;
-    padding-top: 210px;
+    padding-top: 100px;
   }
 
   .carousel-image img {
