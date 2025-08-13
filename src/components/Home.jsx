@@ -415,6 +415,11 @@ const Home = () => {
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariants}
       >
+        {/* Top Right Corner Design */}
+        <div className="corner-design right-corner">
+          <img src="/images/right.png" alt="Gold Design Top Right" />
+        </div>
+
         <div className="container">
           <motion.h2 className="section-title" variants={itemVariants}>
             How to Sell Your Gold with Us
@@ -491,6 +496,14 @@ const Home = () => {
               </motion.button>
             </Link>
           </motion.div>
+        </div>
+
+        {/* Bottom Left Corner Design */}
+        <div className="corner-design left-corner">
+          <img
+            src="/images/left.png"
+            alt="Gold Design Bottom Left"
+          />
         </div>
       </motion.section>
 

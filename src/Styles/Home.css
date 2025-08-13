@@ -354,8 +354,9 @@ body {
 /* Selling Steps Section - Enhanced */
 /* Selling Steps Section - Split Layout */
 .selling-steps-section {
-  padding: 6rem 0;
-  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden; /* Prevent design images from overflowing */
+  padding: 4rem 2rem;
 }
 
 .steps-split-layout {
@@ -364,6 +365,30 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.corner-design {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none; /* Prevent blocking clicks */
+}
+
+.corner-design img {
+  width: 280px; /* Adjust size for aesthetics */
+  height: auto;
+  opacity: 0.9; /* Slight transparency for blending */
+}
+
+.right-corner {
+  top: 80px;
+  right: 56px;
+  transform: translate(20%, -20%);
+}
+
+.left-corner {
+  bottom: 47px;
+  left: 62px;
+  transform: translate(-20%, 20%);
 }
 
 /* Carousel Styles */
@@ -867,6 +892,22 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .right-corner {
+    top: 25px;
+    right: 12px;
+    transform: translate(20%, -20%);
+  }
+  .left-corner {
+    bottom: 3px;
+    left: 22px;
+    transform: translate(-20%, 20%);
+  }
+  .corner-design img {
+    width: 100px;
+    height: 120px;
+    opacity: 0.9;
+    object-fit: contain;
+  }
   .carousel-content {
     flex-direction: column;
     text-align: center;
