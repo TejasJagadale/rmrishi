@@ -1,6 +1,6 @@
 /* Footer Styles */
 .footer {
-  background-color: #9d0a0e;
+  background-color: #4b0e1a;
   color: #ffff;
   padding: 3rem 0 0;
 }
@@ -22,7 +22,10 @@
 }
 
 .footer-heading {
-  color: #d4af37;
+  background: linear-gradient(to right, rgb(247, 222, 121), rgb(179, 125, 38));
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   position: relative;
@@ -36,7 +39,11 @@
   left: 0;
   width: 50px;
   height: 2px;
-  background-color: #d4af37;
+  background-color: linear-gradient(
+    to right,
+    rgb(247, 222, 121),
+    rgb(179, 125, 38)
+  );
 }
 
 .footer-about {
@@ -53,7 +60,7 @@
 }
 
 .social-icons a {
-  color: #F8F5F0;
+  color: #f8f5f0;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
@@ -116,7 +123,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  background-color: #d4af37;
+  background: linear-gradient(to left, rgb(247, 222, 121), rgb(179, 125, 38));
   padding: 10px;
   border-radius: 10px;
 }
@@ -142,13 +149,13 @@
 
 .newsletter-form button:hover {
   background-color: #b8860b;
-  color: #F8F5F0;
+  color: #f8f5f0;
 }
 
 .copyright {
   text-align: center;
   padding: 1.5rem;
-  background-color: #d4af37;
+  background: linear-gradient(to left, rgb(247, 222, 121), rgb(179, 125, 38));
   color: #9d0a0e;
   font-size: 0.9rem;
   font-weight: bolder;

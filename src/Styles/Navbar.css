@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background-color: #9d0a0e;
+  background-color: #4b0e1a;
   /* background-color: #d4af37; */
   position: fixed;
   top: 0;
@@ -25,7 +25,7 @@
 }
 
 .navbar.scrolled {
-  background-color: #9d0a0e;
+  background-color: #4b0e1a;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -38,7 +38,7 @@
   margin: 0 auto;
 }
 
-.navbar-container a{
+.navbar-container a {
   margin: 0;
   display: flex;
 }
@@ -65,9 +65,12 @@
 }
 
 .navbar-link {
-  color: #d4af37;
+  background: linear-gradient(to right, rgb(247, 222, 121), rgb(179, 125, 38));
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   position: relative;
   padding: 0.4rem 1rem;
@@ -83,12 +86,14 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #d4af37;
+  color: linear-gradient(to right, rgb(247, 222, 121), rgb(179, 125, 38));
+
   transition: var(--transition);
 }
 
 .navbar-link:hover {
-  color: #d4af37;
+  color: linear-gradient(to right, rgb(247, 222, 121), rgb(179, 125, 38));
+
   background-color: #f8f5f0;
 }
 
@@ -111,7 +116,7 @@
   display: block;
   height: 3px;
   width: 100%;
-  background-color:#b8860b; /* Changed to primary color */
+  background-color: #b8860b; /* Changed to primary color */
   border-radius: 3px;
   transition: var(--transition);
 }
@@ -125,13 +130,17 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #d4af37;
+  background: linear-gradient(to right, rgb(247, 222, 121), rgb(179, 125, 38));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
+
   font-weight: bold;
 }
 
 .phone-icon {
   font-size: 1rem;
-  color: #d4af37;
+  color:  rgb(247, 222, 121);
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Active link styling */

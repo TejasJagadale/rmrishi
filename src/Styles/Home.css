@@ -103,15 +103,18 @@ body {
 .carousel-text {
   flex: 1;
   padding-right: 50px;
-  color: #fff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  color: #fff;  
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); */
   text-align: left;
 }
 
 .carousel-text h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  color: #f8d35b;
+  background: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 255, 255));
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -223,7 +226,7 @@ body {
 
 .about-section h2 {
   font-size: 2rem;
-  color: var(--secondary-color);
+  color: #4b0e1a;
   margin-bottom: 1.5rem;
 }
 
