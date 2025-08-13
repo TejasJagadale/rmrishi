@@ -103,7 +103,7 @@ body {
 .carousel-text {
   flex: 1;
   padding-right: 50px;
-  color: #fff;  
+  color: #fff;
   /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); */
   text-align: left;
 }
@@ -112,7 +112,7 @@ body {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   background: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 255, 255));
-    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); */
+  /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; /* for Chrome/Safari */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -1056,7 +1056,7 @@ body {
     margin-bottom: 2rem;
   }
   .banner-carousel {
-    height: 90vh;
+    height: 110vh;
   }
 
   .carousel-overlay h1 {
@@ -1071,7 +1071,7 @@ body {
   .carousel-content {
     flex-direction: column;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 210px;
   }
 
   .carousel-image img {
