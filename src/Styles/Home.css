@@ -557,7 +557,7 @@ body {
 /* Testimonials Section */
 .testimonials-section {
   padding: 5rem 0;
-  background-color: var(--light-gold);
+  /* background-color: var(--light-gold); */
 }
 
 .testimonials-container {
@@ -610,7 +610,7 @@ body {
 /* Enhanced Why Choose Us Section */
 .why-choose-us-section {
   padding: 6rem 0;
-  background: linear-gradient(to bottom, #f8f5f0 0%, #f9f6ee 100%);
+  background: #f9f9f9;
   position: relative;
   overflow: hidden;
 }
@@ -820,7 +820,7 @@ body {
 /* FAQ Section */
 .faq-section {
   padding: 5rem 0;
-  background-color: var(--light-gold);
+  /* background-color: var(--light-gold); */
 }
 
 .faq-container {
