@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom'; // Add this import
-import '../Styles/Navbar.css';
-import { FaPhone } from 'react-icons/fa';
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom"; // Add this import
+import "../Styles/Navbar.css";
+import { FaPhone } from "react-icons/fa";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,8 +24,8 @@ const Navbar = () => {
         setScrolled(false);
       }
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Function to check if a link is active
@@ -34,14 +34,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
-        <div className="navbar-logo">
-          <a href="/">R M Rishi Gold</a>
-        </div>
-
+        <a href="/">
+          <img className="logohead" src="/images/logohead.png" alt="" />
+        </a>
         <div
-          className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`}
+          className={`navbar-toggle ${isMenuOpen ? "open" : ""}`}
           onClick={toggleMenu}
         >
           <span></span>
@@ -49,29 +48,31 @@ const Navbar = () => {
           <span></span>
         </div>
 
-        <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
+        <ul className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
           <li className="navbar-item">
-            <a 
-              href="/" 
-              className={`navbar-link ${isActive('/') ? 'active' : ''}`} 
+            <a
+              href="/"
+              className={`navbar-link ${isActive("/") ? "active" : ""}`}
               onClick={closeMenu}
             >
               Home
             </a>
           </li>
           <li className="navbar-item">
-            <a 
-              href="/gold-rate" 
-              className={`navbar-link ${isActive('/gold-rate') ? 'active' : ''}`} 
+            <a
+              href="/gold-rate"
+              className={`navbar-link ${
+                isActive("/gold-rate") ? "active" : ""
+              }`}
               onClick={closeMenu}
             >
               Gold Rate
             </a>
           </li>
           <li className="navbar-item">
-            <a 
-              href="/contact" 
-              className={`navbar-link ${isActive('/contact') ? 'active' : ''}`} 
+            <a
+              href="/contact"
+              className={`navbar-link ${isActive("/contact") ? "active" : ""}`}
               onClick={closeMenu}
             >
               Contact Us
@@ -79,7 +80,11 @@ const Navbar = () => {
           </li>
 
           <li className="navbar-item phone-item">
-            <a href="tel:+919876543210" className="navbar-link phone-link" onClick={closeMenu}>
+            <a
+              href="tel:+919876543210"
+              className="navbar-link phone-link"
+              onClick={closeMenu}
+            >
               <FaPhone className="phone-icon" /> +91 8675725000
             </a>
           </li>
