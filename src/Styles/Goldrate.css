@@ -97,7 +97,7 @@
 }
 
 .gold-rate-table th {
-  background-color: #d4af37;
+  background: linear-gradient(to left, rgb(247, 222, 121), rgb(179, 125, 38));
   color: #f8f5f0;
   font-weight: bold;
 }
@@ -196,7 +196,7 @@
   font-size: 0.9rem;
 }
 
-.info-content h3{
+.info-content h3 {
   margin-bottom: 20px;
 }
 

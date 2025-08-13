@@ -160,7 +160,7 @@ body {
 
 .cta-button {
   padding: 12px 30px;
-  background-color: #f8d35b;
+  background: linear-gradient(to left, rgb(247, 222, 121), rgb(179, 125, 38));
   color: #333;
   border: none;
   border-radius: 30px;
@@ -321,7 +321,8 @@ body {
 /* Stats Section */
 .stats-section {
   padding: 1rem 0;
-  background-image: linear-gradient(0deg, #ff8500 0%, #e1520c 100%);
+  background: linear-gradient(to top, rgb(247, 222, 121), rgb(179, 125, 38));
+  /* background-image: linear-gradient(0deg, #ff8500 0%, #e1520c 100%); */
   /* background-color: var(--secondary-color); */
   color: var(--#F8F5F0);
   text-align: center;
@@ -533,7 +534,7 @@ body {
 }
 
 .gold-rates-table th {
-  background-image: linear-gradient(0deg, #ff8500 0%, #e1520c 100%);
+  background: linear-gradient(to left, rgb(247, 222, 121), rgb(179, 125, 38));
   color: var(--#F8F5F0);
   font-weight: bold;
 }
