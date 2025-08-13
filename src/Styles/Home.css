@@ -879,7 +879,7 @@ body {
   }
 
   .carousel-image img {
-    max-height: 300px;
+    max-height: 380px !important;
   }
   .btnpng {
     height: 50px;
@@ -1063,6 +1063,16 @@ body {
   .carousel-overlay p {
     font-size: 1rem;
     margin-bottom: 0rem;
+  }
+
+  .carousel-content {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  .carousel-image img {
+    max-height: 300px;
   }
 
   .section-title {
